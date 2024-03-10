@@ -32,4 +32,7 @@ module.exports = {
       template: path.resolve(__dirname, 'public/index.html'),
     }),
   ],
+  resolve: {
+    extensions: [".tsx", ".ts", ".jsx", ".js"]
+  }
 };
